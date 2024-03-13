@@ -1,0 +1,268 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#fig1{
+    margin: auto;
+    display: block;
+    position: relative;
+    width: 800px;
+    height: 400px;
+    background: rgb(94, 17, 64);
+    z-index: 1;
+}
+
+#c1{
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 70px;
+    left:-300px;
+    width: 80px;
+    height: 80px;
+    background: rgb(255, 188, 125);
+    z-index: 2;
+}
+
+
+#c2{
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 0px;
+    right: -300px;
+    width: 80px;
+    height: 80px;
+    background: rgb(255, 188, 125);
+    z-index: 2;
+}
+
+#c3{
+    margin: auto;
+    display: block;
+    position: relative;
+    bottom: -82px;
+    left: -300px;
+    width: 80px;
+    height: 80px;
+    background: rgb(255, 188, 125);
+    z-index: 3;
+}
+
+
+#c4{
+    margin: auto;
+    display: block;
+    position: relative;
+    bottom: 0px;
+    right: -300px;
+    width: 80px;
+    height: 80px;
+    background: rgb(255, 188, 125);
+    z-index: 3;
+}
+
+#fig2{
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 100px;
+    width: 800px;
+    height: 400px;
+    background: rgb(75, 3, 90);
+    z-index: 1;
+}
+
+#l1{
+    margin: auto;
+    position: relative;
+    bottom: -200px;
+    left: 140px;
+    width: 150px;
+    height: 150px;
+    border-radius: 0 0 150px 150px;
+    background: rgb(255, 241, 114);
+    z-index: 2;
+}
+
+#l2{
+    margin: auto;
+    position: relative;
+    bottom: -50px;
+    right: 160px;
+    width: 150px;
+    height: 150px;
+    border-radius: 0 0 150px 150px;
+    background: rgb(255, 241, 114);
+    z-index: 2;
+}
+
+#l3{
+    margin: auto;
+    position: relative;
+    bottom: 250px;
+    right: 9px;
+    width: 150px;
+    height: 150px;
+    border-radius: 0 0 150px 150px;
+    background: rgb(255, 241, 114);
+    z-index: 2;
+    transform: rotate(180deg);
+}
+
+#fig3{
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 200px;
+    width: 750px;
+    height: 600px;
+    background: rgb(101, 92, 231);
+    z-index: 1;
+}
+
+#r1{
+    margin: auto;
+    position: relative;
+    bottom: -35px;
+    right: 9px;
+    width: 520px;
+    height: 520px;
+    background: rgb(46, 39, 87);
+    z-index: 2;
+    transform: rotate(180deg);
+}
+
+#r2{
+    margin: auto;
+    position: relative;
+    top: -380px;
+    width: 320px;
+    height: 320px;
+    background: rgb(101, 92, 231);
+    z-index: 3;
+    transform: rotate(25deg);
+}
+
+#r3{
+    margin: auto;
+    position: relative;
+    bottom: 620px;
+    right: -5px;
+    width: 150px;
+    height: 150px;
+    background: rgb(46, 39, 87);
+    z-index: 4;
+    transform: rotate(32deg);
+}
+
+#fig4{
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 300px;
+    width: 730px;
+    height: 500px;
+    background: rgb(78, 72, 167);
+    z-index: 1;
+}
+
+#ci1{
+    margin: auto;
+    position: relative;
+    top: 120px;
+    width: 600px;
+    height: 300px;
+    background: rgb(18, 12, 105);
+    z-index: 2;
+}
+
+#ci2{
+    margin: auto;
+    position: relative;
+    top: -290px;
+    width: 500px;
+    height: 490px;
+    background: rgb(78, 72, 167);
+    border-radius: 100%;
+    z-index: 3; 
+}
+
+#ci3{
+    margin: auto;
+    position: relative;
+    top: -670px;
+    width: 300px;
+    height: 300px;
+    background: rgb(18, 12, 105);
+    border-radius: 100%;
+    z-index: 4; 
+}
+
+#ci4{
+    margin: auto;
+    position: relative;
+    top: -870px;
+    width: 100px;
+    height: 100px;
+    background: rgb(199, 181, 18);
+    border-radius: 100%;
+    z-index: 5; 
+}
+
+
+#fig5{
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 400px;
+    width: 800px;
+    height: 550px;
+    background: rgb(32, 31, 39);
+    z-index: 1;
+}
+
+#t1{
+    margin: auto;
+    position: relative;
+    top: 150px;
+    width: 800px;
+    height: 260px;
+    background: rgb(91, 128, 207);
+    z-index: 2; 
+}
+
+#t2{
+    margin: auto;
+    position: relative;
+    bottom: 175px;
+    width: 384px;
+    height: 384px;
+    background: rgb(32, 31, 39);
+    z-index: 3; 
+    transform: rotate(45deg);
+}
+
+#t3{
+    margin: auto;
+    position: relative;
+    top: -480px;
+    width: 230px;
+    height: 230px;
+    background: rgb(91, 128, 207);
+    z-index: 4; 
+    transform: rotate(45deg);
+}
+
+#t4{
+    margin: auto;
+    position: relative;
+    top: -630px;
+    width: 70px;
+    height: 70px;
+    background: rgb(48, 46, 58);
+    z-index: 5; 
+    border-radius: 100%;;
+}
